@@ -6,8 +6,11 @@ function connDBAss(){
     try{
         $conn = new PDO($host, $user, $pass);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        echo "thành công";
         return $conn;
     }catch(PDOException $th){
-        echo $th->getMessage();
+        echo "kết nối lỗi:" . $th->getMessage();
+        return null;
     }
 }
+$conn = connDBAss();
