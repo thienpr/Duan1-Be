@@ -63,7 +63,7 @@
                         href="pages-elements.html" aria-expanded="false"><i class="mdi mdi-pencil"></i><span
                             class="hide-menu">Đơn hàng</span></a></li>
                 <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="pages-buttons.html" aria-expanded="false"><i class="mdi mdi-relative-scale"></i><span
+                        href="?act=listUser" aria-expanded="false"><i class="mdi mdi-relative-scale"></i><span
                             class="hide-menu">Khách hàng</span></a></li>
                 <li class="sidebar-item"><a href="pages-chat.html" class="sidebar-link"><i
                             class="mdi mdi-message-outline"></i><span class="hide-menu"> Quản lý bình luận
