@@ -5,7 +5,7 @@ require_once __DIR__ . '/../commoms/function.php';
 require_once __DIR__ . '/controller/userController.php';
 require_once __DIR__ . '/controller/trangchu.php';
 require_once __DIR__ . '/model/userModel.php';
-
+// abc
 $act = $_GET['act'] ?? '/';
 $id_user = $_GET['id_user'] ?? null;
 
